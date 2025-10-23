@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "ignoreDeprecations": "6.0",
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Bundler",
@@ -17,16 +18,17 @@
       "@components/*": ["./frontend/js/components/*"],
       "@lib/*": ["./frontend/js/lib/*"]
     },
-    "types": ["vite/client"]
+    "types": ["vite/client"],
+
   },
   "include": [
     "frontend/**/*.ts",
     "frontend/**/*.tsx",
     "frontend/**/*.vue",
     "./**/.vue-plugins/**/*.d.ts"
-  ],
+, "frontend/js/main.js"  ],
   "exclude": [
     "node_modules",
     "dist"
-  ]
+  ],
 }

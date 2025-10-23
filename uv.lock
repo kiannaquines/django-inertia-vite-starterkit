@@ -111,6 +111,31 @@ wheels = [
 ]
 
 [[package]]
+name = "django-inertia-vite-starterkit"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "django" },
+    { name = "django-allauth" },
+    { name = "django-environ" },
+    { name = "django-vite" },
+    { name = "gunicorn" },
+    { name = "inertia-django" },
+    { name = "whitenoise" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "django", specifier = ">=5.1.4" },
+    { name = "django-allauth", specifier = ">=65.11.2" },
+    { name = "django-environ", specifier = ">=0.11.2" },
+    { name = "django-vite", specifier = ">=3.0.5" },
+    { name = "gunicorn", specifier = ">=23.0.0" },
+    { name = "inertia-django", specifier = ">=0.6.0" },
+    { name = "whitenoise", specifier = ">=6.8.2" },
+]
+
+[[package]]
 name = "django-vite"
 version = "3.1.0"
 source = { registry = "https://pypi.org/simple" }
@@ -154,31 +179,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/c0/8c/cd86eb4ed94b5f4e7476865710665f41adc71f15cf76537964665aad2388/inertia_django-1.2.0.tar.gz", hash = "sha256:36511038caf2cbb6f54a08f17dc18fe1dd1b30c712a616672704e395b984f250", size = 20119, upload-time = "2025-03-25T04:37:09.462Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a1/bf/04d7c45249338b09034017e7c3e49c83d4aea77748b9e7b09dd73566b4c3/inertia_django-1.2.0-py3-none-any.whl", hash = "sha256:95c99b6dd9e4ba0717a6f0efba048345f306133cc24f04038f30d3e07d847806", size = 22733, upload-time = "2025-03-25T04:37:07.902Z" },
-]
-
-[[package]]
-name = "myproject"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "django" },
-    { name = "django-allauth" },
-    { name = "django-environ" },
-    { name = "django-vite" },
-    { name = "gunicorn" },
-    { name = "inertia-django" },
-    { name = "whitenoise" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "django", specifier = ">=5.1.4" },
-    { name = "django-allauth", specifier = ">=65.11.2" },
-    { name = "django-environ", specifier = ">=0.11.2" },
-    { name = "django-vite", specifier = ">=3.0.5" },
-    { name = "gunicorn", specifier = ">=23.0.0" },
-    { name = "inertia-django", specifier = ">=0.6.0" },
-    { name = "whitenoise", specifier = ">=6.8.2" },
 ]
 
 [[package]]

@@ -1,5 +1,5 @@
 [project]
-name = "Django Inertia Vite Starter Kit"
+name = 'django-inertia-vite-starterkit'
 version = "0.1.0"
 description = "A ready-to-use starter kit for building modern Django applications with Inertia.js, Vue 3, and Vite, including authentication, asset management, and production-ready settings."
 readme = "README.md"

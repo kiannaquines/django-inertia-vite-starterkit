@@ -4,6 +4,23 @@ A ready-to-use starter kit for building modern Django applications with **Inerti
 
 ---
 
+## Credits
+
+This project was created and maintained by **Kian Naquines**.  
+Inspired by best practices from the Django, Inertia.js, and Vite communities.  
+Special thanks to the authors and contributors of the following libraries and projects:
+
+- [Django](https://www.djangoproject.com/)
+- [Inertia.js](https://inertiajs.com/)
+- [Vue 3](https://v3.vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [Django Allauth](https://django-allauth.readthedocs.io/)
+- [WhiteNoise](http://whitenoise.evans.io/)
+- [Gunicorn](https://gunicorn.org/)
+- [django-vite-inertia by Sarthak Jariwala](https://github.com/SarthakJariwala/django-vite-inertia) – served as inspiration for the integration setup.
+
+---
+
 ## Features
 
 - **Django 5.x** with recommended project structure.
@@ -30,5 +47,5 @@ A ready-to-use starter kit for building modern Django applications with **Inerti
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/kiannaquines/django-inertia-vite-starterkit
 cd django-inertia-vite-starter
