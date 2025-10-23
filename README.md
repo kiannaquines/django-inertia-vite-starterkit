@@ -30,5 +30,5 @@ A ready-to-use starter kit for building modern Django applications with **Inerti
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/kiannaquines/django-inertia-vite-starterkit
 cd django-inertia-vite-starter
