@@ -24,6 +24,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 env = environ.Env()
 env.read_env(os.path.join(BASE_DIR, ".env"))
 
+APP_NAME = env.str("APP_NAME", default="Django Inertia Vite Starterkit")
+APP_ENV = env.str("APP_ENV", default="development")
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
@@ -84,7 +86,7 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
-                
+                "core.context_processors.title",
             ],
         },
     },
