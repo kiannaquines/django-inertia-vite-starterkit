@@ -9,6 +9,10 @@ wheels/
 
 # Environment variables
 .env
+.env.example
+.env.staging
+.env.production
+
 
 # Django-generated files
 db.sqlite3
